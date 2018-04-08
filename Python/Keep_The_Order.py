@@ -25,7 +25,8 @@ def keep_order(ary, val):
     while i < len(ary):
         if ary[i] >= val:
             break
-                i += 1
+        else:       
+              i += 1
     return i
 print(keep_order([1, 2, 3, 4, 7], 5))
 print(keep_order([1, 2, 3, 4, 7], 0))
